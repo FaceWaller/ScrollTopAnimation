@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ScrollTopAnimation' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+pod 'Masonry', '~> 1.1.0'
+  # Pods for ScrollTopAnimation
+
+  target 'ScrollTopAnimationTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ScrollTopAnimationUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

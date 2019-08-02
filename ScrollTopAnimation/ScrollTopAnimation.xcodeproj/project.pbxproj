@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090190784F79B26690B35EFC /* Pods_ScrollTopAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B0E5644A64D73426F9D7A3 /* Pods_ScrollTopAnimation.framework */; };
+		5FD15D6DFF2FD5F3424F306B /* Pods_ScrollTopAnimationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135449523806B04DCF907AAF /* Pods_ScrollTopAnimationTests.framework */; };
+		854B9D1A4A2F53DBCEFDB522 /* Pods_ScrollTopAnimationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3474FDBB3F9ADE632819C0 /* Pods_ScrollTopAnimationUITests.framework */; };
+		8C908D0C22F3EF3A00246FD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C908D0B22F3EF3A00246FD5 /* AppDelegate.m */; };
+		8C908D0F22F3EF3A00246FD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C908D0E22F3EF3A00246FD5 /* ViewController.m */; };
+		8C908D1422F3EF3B00246FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C908D1322F3EF3B00246FD5 /* Assets.xcassets */; };
+		8C908D1722F3EF3B00246FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C908D1522F3EF3B00246FD5 /* LaunchScreen.storyboard */; };
+		8C908D1A22F3EF3B00246FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C908D1922F3EF3B00246FD5 /* main.m */; };
+		8C908D2422F3EF3B00246FD5 /* ScrollTopAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C908D2322F3EF3B00246FD5 /* ScrollTopAnimationTests.m */; };
+		8C908D2F22F3EF3B00246FD5 /* ScrollTopAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C908D2E22F3EF3B00246FD5 /* ScrollTopAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C908D2022F3EF3B00246FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C908CFF22F3EF3A00246FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C908D0622F3EF3A00246FD5;
+			remoteInfo = ScrollTopAnimation;
+		};
+		8C908D2B22F3EF3B00246FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C908CFF22F3EF3A00246FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C908D0622F3EF3A00246FD5;
+			remoteInfo = ScrollTopAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AB0C4F2DC0972669BE21CA2 /* Pods-ScrollTopAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollTopAnimationTests.release.xcconfig"; path = "Target Support Files/Pods-ScrollTopAnimationTests/Pods-ScrollTopAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F10283E5147BE9108BBD50E /* Pods-ScrollTopAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollTopAnimationUITests.release.xcconfig"; path = "Target Support Files/Pods-ScrollTopAnimationUITests/Pods-ScrollTopAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		135449523806B04DCF907AAF /* Pods_ScrollTopAnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollTopAnimationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19244BD74F78A9D5A321F96D /* Pods-ScrollTopAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollTopAnimation.release.xcconfig"; path = "Target Support Files/Pods-ScrollTopAnimation/Pods-ScrollTopAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		2C9D235108D77FA51E1DE1EA /* Pods-ScrollTopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollTopAnimation.debug.xcconfig"; path = "Target Support Files/Pods-ScrollTopAnimation/Pods-ScrollTopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		2E3810E261524A774491DFE0 /* Pods-ScrollTopAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollTopAnimationTests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollTopAnimationTests/Pods-ScrollTopAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C54310A396F4850EAD39A38 /* Pods-ScrollTopAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollTopAnimationUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollTopAnimationUITests/Pods-ScrollTopAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62B0E5644A64D73426F9D7A3 /* Pods_ScrollTopAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollTopAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C908D0722F3EF3A00246FD5 /* ScrollTopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollTopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C908D0A22F3EF3A00246FD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C908D0B22F3EF3A00246FD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C908D0D22F3EF3A00246FD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C908D0E22F3EF3A00246FD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C908D1322F3EF3B00246FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C908D1622F3EF3B00246FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C908D1822F3EF3B00246FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C908D1922F3EF3B00246FD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C908D1F22F3EF3B00246FD5 /* ScrollTopAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTopAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C908D2322F3EF3B00246FD5 /* ScrollTopAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTopAnimationTests.m; sourceTree = "<group>"; };
+		8C908D2522F3EF3B00246FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C908D2A22F3EF3B00246FD5 /* ScrollTopAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTopAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C908D2E22F3EF3B00246FD5 /* ScrollTopAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTopAnimationUITests.m; sourceTree = "<group>"; };
+		8C908D3022F3EF3B00246FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3474FDBB3F9ADE632819C0 /* Pods_ScrollTopAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollTopAnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C908D0422F3EF3A00246FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090190784F79B26690B35EFC /* Pods_ScrollTopAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C908D1C22F3EF3B00246FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD15D6DFF2FD5F3424F306B /* Pods_ScrollTopAnimationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C908D2722F3EF3B00246FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854B9D1A4A2F53DBCEFDB522 /* Pods_ScrollTopAnimationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3210A56E7731E9352146AD24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C9D235108D77FA51E1DE1EA /* Pods-ScrollTopAnimation.debug.xcconfig */,
+				19244BD74F78A9D5A321F96D /* Pods-ScrollTopAnimation.release.xcconfig */,
+				2E3810E261524A774491DFE0 /* Pods-ScrollTopAnimationTests.debug.xcconfig */,
+				0AB0C4F2DC0972669BE21CA2 /* Pods-ScrollTopAnimationTests.release.xcconfig */,
+				3C54310A396F4850EAD39A38 /* Pods-ScrollTopAnimationUITests.debug.xcconfig */,
+				0F10283E5147BE9108BBD50E /* Pods-ScrollTopAnimationUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C908CFE22F3EF3A00246FD5 = {
+			isa = PBXGroup;
+			children = (
+				8C908D0922F3EF3A00246FD5 /* ScrollTopAnimation */,
+				8C908D2222F3EF3B00246FD5 /* ScrollTopAnimationTests */,
+				8C908D2D22F3EF3B00246FD5 /* ScrollTopAnimationUITests */,
+				8C908D0822F3EF3A00246FD5 /* Products */,
+				3210A56E7731E9352146AD24 /* Pods */,
+				E7B2E7357A6B6ADE1C3235AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C908D0822F3EF3A00246FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C908D0722F3EF3A00246FD5 /* ScrollTopAnimation.app */,
+				8C908D1F22F3EF3B00246FD5 /* ScrollTopAnimationTests.xctest */,
+				8C908D2A22F3EF3B00246FD5 /* ScrollTopAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C908D0922F3EF3A00246FD5 /* ScrollTopAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8C908D0A22F3EF3A00246FD5 /* AppDelegate.h */,
+				8C908D0B22F3EF3A00246FD5 /* AppDelegate.m */,
+				8C908D0D22F3EF3A00246FD5 /* ViewController.h */,
+				8C908D0E22F3EF3A00246FD5 /* ViewController.m */,
+				8C908D1322F3EF3B00246FD5 /* Assets.xcassets */,
+				8C908D1522F3EF3B00246FD5 /* LaunchScreen.storyboard */,
+				8C908D1822F3EF3B00246FD5 /* Info.plist */,
+				8C908D1922F3EF3B00246FD5 /* main.m */,
+			);
+			path = ScrollTopAnimation;
+			sourceTree = "<group>";
+		};
+		8C908D2222F3EF3B00246FD5 /* ScrollTopAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C908D2322F3EF3B00246FD5 /* ScrollTopAnimationTests.m */,
+				8C908D2522F3EF3B00246FD5 /* Info.plist */,
+			);
+			path = ScrollTopAnimationTests;
+			sourceTree = "<group>";
+		};
+		8C908D2D22F3EF3B00246FD5 /* ScrollTopAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C908D2E22F3EF3B00246FD5 /* ScrollTopAnimationUITests.m */,
+				8C908D3022F3EF3B00246FD5 /* Info.plist */,
+			);
+			path = ScrollTopAnimationUITests;
+			sourceTree = "<group>";
+		};
+		E7B2E7357A6B6ADE1C3235AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62B0E5644A64D73426F9D7A3 /* Pods_ScrollTopAnimation.framework */,
+				135449523806B04DCF907AAF /* Pods_ScrollTopAnimationTests.framework */,
+				ED3474FDBB3F9ADE632819C0 /* Pods_ScrollTopAnimationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C908D0622F3EF3A00246FD5 /* ScrollTopAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C908D3322F3EF3B00246FD5 /* Build configuration list for PBXNativeTarget "ScrollTopAnimation" */;
+			buildPhases = (
+				C3AB4500892B088E0FC2E2D0 /* [CP] Check Pods Manifest.lock */,
+				8C908D0322F3EF3A00246FD5 /* Sources */,
+				8C908D0422F3EF3A00246FD5 /* Frameworks */,
+				8C908D0522F3EF3A00246FD5 /* Resources */,
+				56F963506658CCE5F8CE3F76 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollTopAnimation;
+			productName = ScrollTopAnimation;
+			productReference = 8C908D0722F3EF3A00246FD5 /* ScrollTopAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C908D1E22F3EF3B00246FD5 /* ScrollTopAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C908D3622F3EF3B00246FD5 /* Build configuration list for PBXNativeTarget "ScrollTopAnimationTests" */;
+			buildPhases = (
+				4284E18E013A12BCCFD61B8C /* [CP] Check Pods Manifest.lock */,
+				8C908D1B22F3EF3B00246FD5 /* Sources */,
+				8C908D1C22F3EF3B00246FD5 /* Frameworks */,
+				8C908D1D22F3EF3B00246FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C908D2122F3EF3B00246FD5 /* PBXTargetDependency */,
+			);
+			name = ScrollTopAnimationTests;
+			productName = ScrollTopAnimationTests;
+			productReference = 8C908D1F22F3EF3B00246FD5 /* ScrollTopAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C908D2922F3EF3B00246FD5 /* ScrollTopAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C908D3922F3EF3B00246FD5 /* Build configuration list for PBXNativeTarget "ScrollTopAnimationUITests" */;
+			buildPhases = (
+				4B329C4E04A39C49711C62BF /* [CP] Check Pods Manifest.lock */,
+				8C908D2622F3EF3B00246FD5 /* Sources */,
+				8C908D2722F3EF3B00246FD5 /* Frameworks */,
+				8C908D2822F3EF3B00246FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C908D2C22F3EF3B00246FD5 /* PBXTargetDependency */,
+			);
+			name = ScrollTopAnimationUITests;
+			productName = ScrollTopAnimationUITests;
+			productReference = 8C908D2A22F3EF3B00246FD5 /* ScrollTopAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C908CFF22F3EF3A00246FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = jpz;
+				TargetAttributes = {
+					8C908D0622F3EF3A00246FD5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8C908D1E22F3EF3B00246FD5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8C908D0622F3EF3A00246FD5;
+					};
+					8C908D2922F3EF3B00246FD5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8C908D0622F3EF3A00246FD5;
+					};
+				};
+			};
+			buildConfigurationList = 8C908D0222F3EF3A00246FD5 /* Build configuration list for PBXProject "ScrollTopAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C908CFE22F3EF3A00246FD5;
+			productRefGroup = 8C908D0822F3EF3A00246FD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C908D0622F3EF3A00246FD5 /* ScrollTopAnimation */,
+				8C908D1E22F3EF3B00246FD5 /* ScrollTopAnimationTests */,
+				8C908D2922F3EF3B00246FD5 /* ScrollTopAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C908D0522F3EF3A00246FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C908D1722F3EF3B00246FD5 /* LaunchScreen.storyboard in Resources */,
+				8C908D1422F3EF3B00246FD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C908D1D22F3EF3B00246FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C908D2822F3EF3B00246FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4284E18E013A12BCCFD61B8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollTopAnimationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B329C4E04A39C49711C62BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollTopAnimationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F963506658CCE5F8CE3F76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollTopAnimation/Pods-ScrollTopAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollTopAnimation/Pods-ScrollTopAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollTopAnimation/Pods-ScrollTopAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3AB4500892B088E0FC2E2D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollTopAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C908D0322F3EF3A00246FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C908D0F22F3EF3A00246FD5 /* ViewController.m in Sources */,
+				8C908D1A22F3EF3B00246FD5 /* main.m in Sources */,
+				8C908D0C22F3EF3A00246FD5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C908D1B22F3EF3B00246FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C908D2422F3EF3B00246FD5 /* ScrollTopAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C908D2622F3EF3B00246FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C908D2F22F3EF3B00246FD5 /* ScrollTopAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C908D2122F3EF3B00246FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C908D0622F3EF3A00246FD5 /* ScrollTopAnimation */;
+			targetProxy = 8C908D2022F3EF3B00246FD5 /* PBXContainerItemProxy */;
+		};
+		8C908D2C22F3EF3B00246FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C908D0622F3EF3A00246FD5 /* ScrollTopAnimation */;
+			targetProxy = 8C908D2B22F3EF3B00246FD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C908D1522F3EF3B00246FD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C908D1622F3EF3B00246FD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C908D3122F3EF3B00246FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C908D3222F3EF3B00246FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C908D3422F3EF3B00246FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9D235108D77FA51E1DE1EA /* Pods-ScrollTopAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8HT367G9J;
+				INFOPLIST_FILE = ScrollTopAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpz.ScrollTopAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C908D3522F3EF3B00246FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19244BD74F78A9D5A321F96D /* Pods-ScrollTopAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8HT367G9J;
+				INFOPLIST_FILE = ScrollTopAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpz.ScrollTopAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C908D3722F3EF3B00246FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3810E261524A774491DFE0 /* Pods-ScrollTopAnimationTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8HT367G9J;
+				INFOPLIST_FILE = ScrollTopAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpz.ScrollTopAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollTopAnimation.app/ScrollTopAnimation";
+			};
+			name = Debug;
+		};
+		8C908D3822F3EF3B00246FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB0C4F2DC0972669BE21CA2 /* Pods-ScrollTopAnimationTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8HT367G9J;
+				INFOPLIST_FILE = ScrollTopAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpz.ScrollTopAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollTopAnimation.app/ScrollTopAnimation";
+			};
+			name = Release;
+		};
+		8C908D3A22F3EF3B00246FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C54310A396F4850EAD39A38 /* Pods-ScrollTopAnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8HT367G9J;
+				INFOPLIST_FILE = ScrollTopAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpz.ScrollTopAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollTopAnimation;
+			};
+			name = Debug;
+		};
+		8C908D3B22F3EF3B00246FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F10283E5147BE9108BBD50E /* Pods-ScrollTopAnimationUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8HT367G9J;
+				INFOPLIST_FILE = ScrollTopAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpz.ScrollTopAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollTopAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C908D0222F3EF3A00246FD5 /* Build configuration list for PBXProject "ScrollTopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C908D3122F3EF3B00246FD5 /* Debug */,
+				8C908D3222F3EF3B00246FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C908D3322F3EF3B00246FD5 /* Build configuration list for PBXNativeTarget "ScrollTopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C908D3422F3EF3B00246FD5 /* Debug */,
+				8C908D3522F3EF3B00246FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C908D3622F3EF3B00246FD5 /* Build configuration list for PBXNativeTarget "ScrollTopAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C908D3722F3EF3B00246FD5 /* Debug */,
+				8C908D3822F3EF3B00246FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C908D3922F3EF3B00246FD5 /* Build configuration list for PBXNativeTarget "ScrollTopAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C908D3A22F3EF3B00246FD5 /* Debug */,
+				8C908D3B22F3EF3B00246FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C908CFF22F3EF3A00246FD5 /* Project object */;
+}
